@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(245, 245, 166);
+  color: rgb(31, 31, 44);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.6em;
+}
+
+.purple-border {
+  border: 3px solid purple;
+}
+
+#green-background {
+  background-color: rgb(173, 233, 173);
+}
+
+h1 {
+  color: blueviolet;
+  font-size: 22px;
+}
