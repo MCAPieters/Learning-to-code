@@ -1,0 +1,196 @@
+h1 {
+  color: blueviolet;
+  font-size: 30px;
+  border: 2px dotted blueviolet;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 280px;
+  padding: 10px;
+}
+
+h2 {
+  color: rgb(203, 211, 247);
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: rgb(203, 211, 247);
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(75, 105, 236);
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: rgb(108, 108, 233);
+}
+
+a:visited {
+  color: orange;
+}
+
+body {
+  background-color: rgb(203, 211, 247);
+  color: rgb(31, 31, 44);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.6em;
+}
+.container {
+  border: 3px dotted purple;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.box-model-properties {
+  border: 3px solid purple;
+  border-radius: 15px;
+  margin: 10px;
+
+  padding: 15px;
+
+  background-color: rgb(45, 45, 100);
+  color: rgb(203, 211, 247);
+}
+.navigation-links {
+  padding: 10px;
+  border: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+.navigation-links li {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
+  color: rgb(203, 211, 247);
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  color: rgb(203, 211, 247);
+  font-family: Arial, Helvetica, sans-serif;
+}
+form {
+  margin: 10px;
+  padding: 20px;
+  border: 30px;
+  border-radius: 15px;
+  border: 1px solid purple;
+  background-color: rgb(203, 211, 247);
+  color: rgb(31, 31, 44);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Media Queeries*/
+
+@media (min-width: 320px) {
+  h1 {
+    color: purple;
+    font-size: 25px;
+  }
+
+  h2 {
+    color: purple;
+    font-size: 25px;
+  }
+
+  h3 {
+    color: purple;
+    font-size: 25px;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+    margin: 10px;
+    background-color: pink;
+    color: purple;
+  }
+
+  .box-model-properties {
+    background-color: pink;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 2em;
+  }
+  p {
+    background-color: pink;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form {
+    margin: 10px;
+    padding: 20px;
+    border: 30px;
+    border-radius: 15px;
+    border: 1px solid purple;
+    background-color: pink;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    color: yellowgreen;
+    font-size: 22px;
+  }
+
+  h2 {
+    color: yellowgreen;
+    font-size: 22px;
+  }
+
+  h3 {
+    color: yellowgreen;
+    font-size: 20px;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2.1;
+    margin: 0em;
+    background-color: green;
+    color: yellowgreen;
+  }
+  .box-model-properties {
+    background-color: green;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 10px;
+  }
+  p {
+    background-color: green;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form {
+    margin: 10px;
+    padding: 20px;
+    border: 30px;
+    background-color: green;
+    color: yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    border: 1px solid purple;
+  }
+}
