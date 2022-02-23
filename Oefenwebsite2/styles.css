@@ -1,0 +1,98 @@
+
+body{
+  background-color: rgba(59, 10, 150, 0.63);
+  
+}
+
+h1{ color: purple;
+font-weight: bold;
+font: size 36px;}
+
+img{
+    margin:0 auto;
+    width: 250px;
+    border: 12px dashed plum; 
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(75, 105, 236);
+    font-size: large;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  a:active {
+    color: rgb(108, 108, 233);
+  }
+  
+
+.box-model-properties {
+    border: 3px solid purple;
+    border-radius: 15px;
+    margin: 10px;
+  
+    padding: 15px;
+  
+    background-color: rgb(205, 230, 94);
+
+  }
+  .navigation-links {
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    text-decoration: none;
+  }
+  .navigation-links li {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    color: rgb(203, 211, 247);
+  }
+
+p{
+font-family: "Quintessential", cursive;
+font-size: 22px;
+padding: 5px;}
+
+
+
+/* MEDIA QUERIES*/ 
+
+
+
+@media (min-width: 768px) {
+  body{
+    background-color: rgb(241, 170, 63);
+  }
+  p{
+    font-size: 20px;
+  }
+
+  }
+  
+  @media (min-width: 1000px) {
+    body{
+      background-color: rgb(223, 236, 145);
+    }
+    p{
+      font-size: 18px;
+  
+    }
+}
+}
+
+/*
+Smartphones (portrait)
+minimal width : 320px;
+
+Tablets (portrait)
+minimal width : 768px;
+
+Desktop 
+minimal width : 1024px; */
